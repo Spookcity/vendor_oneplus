@@ -493,6 +493,36 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/a640_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b02 \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/a640_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.elf \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_breeze.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_breeze.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_clock1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock1.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_clock2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock2.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_clock3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock3.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_clock4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock4.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_clock5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock5.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_dream.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_fluttering.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_fluttering.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_flyer.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_flyer.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_interesting.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_interesting.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_leisurely.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_leisurely.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_memory.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_memory.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_relieved.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_relieved.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_ripple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_ripple.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_spring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_spring.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_stars.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_stars.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_surging.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_surging.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_tactfully.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_tactfully.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_the_wind.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_the_wind.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/alarm_walking_in_the_rain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_walking_in_the_rain.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_166.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_168.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_172.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_174.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_rtp_lighthouse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_lighthouse.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/aw8697_rtp_silk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_silk.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/awinic_haptic_params.bin \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
@@ -516,6 +546,61 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_Ardour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Ardour.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_Chic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Chic.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_allusion.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_allusion.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_amiable.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_amiable.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_blare.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_blare.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_blissful.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_blissful.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_cheerful.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_cheerful.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_comely.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_comely.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_cozy.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_cozy.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_ding.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_ding.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_effervesce.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_effervesce.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_elegant.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_elegant.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_free.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_free.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_hallucination.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_hallucination.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_inbound.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_inbound.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_incidence.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_incidence.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_light.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_light.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_meet.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_meet.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_naivety.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_naivety.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_quickly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_quickly.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_rhythm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_rhythm.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_silent.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_silent.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_spirit.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_spirit.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_surprise.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_surprise.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/notif_twinkle.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_twinkle.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_McLarn.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_McLarn.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_T-Jingle.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_T-Jingle.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_alacrity.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_alacrity.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_amenity.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_amenity.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_blues.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_blues.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_brisk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_brisk.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_cloud.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_cloud.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_cyclotron.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_cyclotron.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_distinct.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_distinct.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_dynamic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_dynamic.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_echo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_echo.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_expect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_expect.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_fanatical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_fanatical.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_funky.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_funky.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_game.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_game.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_guitar.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_guitar.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_harping.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_harping.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_highlight.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_highlight.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_idyl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_idyl.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_innocence.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_innocence.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_journey.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_journey.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_joyous.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_joyous.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_marimba.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_marimba.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_old_telephone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_old_telephone.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_oneplus_tune.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_oneplus_tune.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_oneplus_tune_rhythm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_oneplus_tune_rhythm.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_optimistic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_optimistic.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_piano.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_piano.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/ring_pyxis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_pyxis.bin \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/shuntai24k_rtp.bin \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tp/FW_18821_SY761.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/FW_18821_SY761.bin \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tp/FW_18857_S3706.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/FW_18857_S3706.img \
@@ -533,6 +618,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tp/LIMIT_19801_SY761_NEW.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/LIMIT_19801_SY761_NEW.img \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tp/LIMIT_19861_SY761.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/LIMIT_19861_SY761.img \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/tp/LIMIT_19861_SY761_NEW.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/LIMIT_19861_SY761_NEW.img \
+    vendor/oneplus/sm8150-common/proprietary/vendor/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wentai24k_rtp.bin \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/oneplus/sm8150-common/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
@@ -707,7 +793,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_right.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_uw.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdrplus_hvx_stub.so \
-    vendor/oneplus/sm8150-common/proprietary/vendor/lib/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_portrait_distortion_correction.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_super_night_raw.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
@@ -1156,6 +1241,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_left.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_preview.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_right.so \
+    vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_uw.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_couple_api.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_denoise_api.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_hdrplus_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdrplus_hvx_stub.so \
@@ -1163,7 +1249,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range_couple.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_piczoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_piczoom.so \
-    vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_smart_denoise.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/libarm_proxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarm_proxy_skel.so \
