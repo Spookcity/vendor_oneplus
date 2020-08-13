@@ -135,14 +135,13 @@ android_app_import {
 }
 
 android_app_import {
-    name: "OPSoundTuner",
-    owner: "oneplus",
-    apk: "proprietary/app/OPSoundTuner/OPSoundTuner.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
+	name: "OPSoundTuner",
+	owner: "oneplus",
+	apk: "proprietary/app/OPSoundTuner/OPSoundTuner.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
 }
 
 android_app_import {
