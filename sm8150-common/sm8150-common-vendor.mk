@@ -1045,7 +1045,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.oneplus.camera.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.camera.CameraMDMHIDL@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.hardware.param@1.0.so \
-    vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.oneplus.hardware.translation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oneplus.hardware.translation@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0-service.so \
@@ -1516,7 +1515,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.param@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.rpmb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.rpmb@1.0.so \
-    vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.translation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.translation@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.wifi@1.0.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.oneplus.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.wifi@1.1.so \
     vendor/oneplus/sm8150-common/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
