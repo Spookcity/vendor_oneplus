@@ -15,5 +15,5 @@ service vendor.vppservice /vendor/bin/vppservice
     # don't auto restart
     oneshot
 
-    # start only when requested
-    disabled
+    # start only when requested (uncomment below to disable service at boot)
+    # disabled
