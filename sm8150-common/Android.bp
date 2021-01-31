@@ -77,26 +77,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-   name: "NxpNfcNci",
-   owner: "oneplus",
-   apk: "proprietary/app/NxpNfcNci/NxpNfcNci.apk",
-   certificate: "platform",
-   dex_preopt: {
-       enabled: false,
-   },
-}
-
-android_app_import {
-   name: "NxpSecureElement",
-   owner: "oneplus",
-   apk: "proprietary/app/NxpSecureElement/NxpSecureElement.apk",
-   certificate: "platform",
-   dex_preopt: {
-       enabled: false,
-   },
-}
-
-android_app_import {
     name: "SoterService",
     owner: "oneplus",
     apk: "proprietary/app/SoterService/SoterService.apk",
@@ -104,6 +84,28 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
+}
+
+android_app_import {
+   name: "NxpNfcNci",
+   owner: "oneplus",
+   apk: "proprietary/system_ext/app/NxpNfcNci/NxpNfcNci.apk",
+   certificate: "platform",
+   dex_preopt: {
+       enabled: false,
+   },
+   system_ext_specific: true,
+}
+
+android_app_import {
+   name: "NxpSecureElement",
+   owner: "oneplus",
+   apk: "proprietary/system_ext/app/NxpSecureElement/NxpSecureElement.apk",
+   certificate: "platform",
+   dex_preopt: {
+       enabled: false,
+   },
+   system_ext_specific: true,
 }
 
 android_app_import {
