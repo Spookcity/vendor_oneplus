@@ -58,19 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nci_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_beijingbus.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nci_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci_yangchengtong.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_beijingbus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_beijingbus.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_changancard.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_changancard.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_noeSE.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_productline.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_productline_noeSE.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_productline_noeSE.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_shenzhentong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_shenzhentong.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_suzhoutong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_suzhoutong.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_wuhantong.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_yangchengtong.conf \
-    vendor/oneplus/guacamoleb/proprietary/vendor/etc/libnfc-nxp_RF_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF_zhengzhoubus.conf \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/sensors/config/ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_0.json \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/oneplus/guacamoleb/proprietary/vendor/etc/sensors/config/bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0.json \
