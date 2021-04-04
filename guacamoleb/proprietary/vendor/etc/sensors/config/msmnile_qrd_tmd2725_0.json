@@ -100,10 +100,10 @@
       ".fac_cal":{
         "owner": "sns_tmd2725",
         "scale":{ "type": "flt", "ver": "0",
-          "data": "13636.0"
+          "data": "1625.0"
         },
         "bias":{ "type": "flt", "ver": "0",
-          "data": "0.0"
+          "data": "2000.0"
         }
       },
       ".custom_cal":{
@@ -130,7 +130,7 @@
             "data": "90000.0"
         },
         "w_time":{ "type": "flt", "ver": "0",
-          "data": "2800"
+          "data": "28.0"
         },
         "w_long":{ "type": "flt", "ver": "0",
           "data": "1.0"
@@ -166,16 +166,16 @@
       ".fac_cal":{
         "owner": "sns_tmd2725",
         "near_threshold":{ "type": "flt", "ver": "0",
-          "data": "20000.0"
+          "data": "36.0"
         },
         "far_threshold":{ "type": "flt", "ver": "0",
-          "data": "50.0"
+          "data": "19.0"
         }
       },
       ".proxOffset_hWcal":{
         "owner": "sns_tmd2725",
         "proxOffset":{ "type": "flt", "ver": "0",
-          "data": "31.0"
+          "data": "4.0"
         },
         "proxOffsetSign":{ "type": "flt", "ver": "0",
           "data": "0.0"
@@ -185,6 +185,9 @@
         "owner": "sns_tmd2725",
         "ptime":{ "type": "flt", "ver": "0",
           "data": "49896.0"
+        },
+        "pwait_time":{ "type": "flt", "ver": "0",
+          "data": "28.0"
         },
         "ppulse_len":{ "type": "flt", "ver": "0",
           "data": "1.0"
@@ -196,7 +199,7 @@
           "data": "4000.0"
         },
         "pldrive":{ "type": "flt", "ver": "0",
-          "data": "100.0"
+          "data": "24.0"
         },
         "ppers":{ "type": "flt", "ver": "0",
           "data": "2.0"

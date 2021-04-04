@@ -186,6 +186,9 @@
         "ptime":{ "type": "flt", "ver": "0",
           "data": "49896.0"
         },
+        "pwait_time":{ "type": "flt", "ver": "0",
+          "data": "28.0"
+        },
         "ppulse_len":{ "type": "flt", "ver": "0",
           "data": "1.0"
         },

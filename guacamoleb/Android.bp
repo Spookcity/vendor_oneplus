@@ -1,6 +1,6 @@
 /**
- * Copyright (C) 2019-2020 The LineageOS Project
- * Copyright (C) 2019-2020 The Evolution X Project
+ * Copyright (C) 2019-2021 The Evolution X Project
+ * Copyright (C) 2019-2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,16 +18,5 @@
  */
 
 soong_namespace {
-}
-
-android_app_import {
-	name: "QFingerprintService",
-	owner: "oneplus",
-	apk: "proprietary/vendor/app/QFingerprintService/QFingerprintService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
 }
 
