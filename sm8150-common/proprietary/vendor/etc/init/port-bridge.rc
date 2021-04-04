@@ -3,6 +3,10 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
 
+on boot
+    #Create PORT-BRIDGE daemon socket area
+    mkdir /dev/socket/port-bridge 0750 radio radio
+
 # msm specific files that need to be created on /data
 on post-fs-data
     #Create port-bridge log dir
